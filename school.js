@@ -1,13 +1,14 @@
 
 
 
-function OurSchool(branch, term, students){
+function OurSchool(branch, term, course,students){
     this.branch = branch
     this.term = term
+    this.course = course
     this.students = students
 
 }
- let school = new OurSchool("Code Immersives", "Term Two", "Uli")
+let school = new OurSchool("Code Immersives", "javadcript", "Term Two", "Uli")
 
-console.log(`school: `, school)
+
 
