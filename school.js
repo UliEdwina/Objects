@@ -8,7 +8,8 @@ function OurSchool(branch, term, course,students){
     this.students = students
 
 }
-let school = new OurSchool("Code Immersives", "javadcript", "Term Two", "Uli")
+let school = new OurSchool("Code Immersives", "javascript", "Term Two", "Uli")
 
 
+console.log(`school: `, school)
 
