@@ -10,3 +10,4 @@ function OurSchool(branch, term, students){
  let school = new OurSchool("Code Immersives", "Term Two", "Uli")
 
 console.log(`school: `, school)
+
